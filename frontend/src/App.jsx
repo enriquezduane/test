@@ -7,7 +7,7 @@ const LandingPage = () => {
         { name: 'Mobile Gaming', threads: 156, posts: 6.2 },
         { name: 'Indie Games', threads: 302, posts: 15.1 },
         { name: 'Game Development', threads: 98, posts: 4.3 },
-        { name: 'Off-Topic', threads: 432, posts: 21.6 },
+        { name: 'Off-Topic', threads: 432, posts: 21.6 }
     ];
 
     return (
