@@ -1,0 +1,176 @@
+.postCard {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    background-color: #2d2d2d;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid #00ff9d;
+    transition: background-color 0.3s;
+  }
+  
+  .postCard:hover {
+    background-color: #3a3a3a;
+  }
+  
+  .voteContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    min-width: 50px;
+  }
+  
+  .voteButton {
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 0.2rem;
+    transition: color 0.3s;
+  }
+  
+  .voteButton:hover {
+    color: #00ff9d;
+  }
+  
+  .voteCount {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .postContent {
+    flex: 1;
+    color: #ffffff;
+  }
+  
+  .postHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .genreTag {
+    background-color: rgba(0, 255, 157, 0.2);
+    color: #00ff9d;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.9rem;
+  }
+  
+  .genreInput {
+    background-color: #444;
+    border: 1px solid #00ff9d;
+    color: #ffffff;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    width: 100px;
+  }
+  
+  .authorTime {
+    text-align: right;
+  }
+  
+  .postAuthor {
+    color: #cccccc;
+    font-size: 0.9rem;
+  }
+  
+  .postTime {
+    color: #666;
+    font-size: 0.8rem;
+  }
+  
+  .postTitle {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: #ffffff;
+  }
+  
+  .postText {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    color: #cccccc;
+  }
+  
+  .contentInput {
+    width: 100%;
+    min-height: 80px;
+    background-color: #444;
+    border: 1px solid #00ff9d;
+    color: #ffffff;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .postFooter {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+  }
+  
+
+  .commentsButton {
+    background: none;
+    border: 1px solid #4a4a4a;
+    color: #cccccc;
+    padding: 0.2rem 0.4rem;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: border-color 0.3s, color 0.3s;
+    height: 50px;
+    align-self: flex-end;
+  }
+  
+  .commentsButton:hover {
+    border-color: #00ff9d;
+    color: #00ff9d;
+  }
+  
+  .editButton,
+  .saveButton {
+    background-color: #00ff9d;
+    border: none;
+    color: #2d2d2d;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    height: 50px;
+    align-self: flex-end;
+  }
+  
+  .editButton:hover,
+  .saveButton:hover {
+    background-color: #00cc85;
+  }
+  
+  .postLink {
+    text-decoration: none;
+    color: inherit;
+    flex: 1;
+  }
+
+  .deleteButton {
+    background-color: #ff4d4d; /* A red background */
+    border: none;
+    color: #ffffff;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    height: 50px;
+    align-self: flex-end;
+  }
+  
+  .deleteButton:hover {
+    background-color: #ff1a1a;
+  }
+  
+  

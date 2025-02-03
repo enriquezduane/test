@@ -1,0 +1,138 @@
+.container {
+    background-color: #1a1a1a;
+    min-height: 100vh;
+    color: white;
+}
+
+.backButton {
+    background: none;
+    border: none;
+    color: #00ff9d;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #00ff9d;
+    border-radius: 5px;
+}
+
+.postContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #2d2d2d;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.post h2 {
+    color: #00ff9d;
+    margin-bottom: 1rem;
+}
+
+.meta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    color: #cccccc;
+}
+
+.content {
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.voting {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.voting button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.comments {
+    margin-top: 2rem;
+}
+
+.commentForm {
+    margin-bottom: 2rem;
+}
+
+.commentForm textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: #363636;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.commentForm button {
+    background: #00ff9d;
+    color: #1a1a1a;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comment {
+    background: #363636;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.commentHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    color: #cccccc;
+}
+
+.commentEditButton,
+.commentDeleteButton,
+.commentSaveButton,
+.commentCancelButton {
+  margin-left: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.commentEditButton {
+  background-color: #00ff9d;
+  border: none;
+  color: #2d2d2d;
+}
+
+.commentDeleteButton {
+  background-color: #ff4d4d;
+  border: none;
+  color: #ffffff;
+}
+
+.commentSaveButton {
+  background-color: #00cc85;
+  border: none;
+  color: #2d2d2d;
+}
+
+.commentCancelButton {
+  background-color: #cccccc;
+  border: none;
+  color: #2d2d2d;
+}
+
+.commentEditInput {
+  width: 100%;
+  min-height: 50px;
+  margin: 0.5rem 0;
+}

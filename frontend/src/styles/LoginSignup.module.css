@@ -123,3 +123,21 @@
     font-size: 1.75rem;
   }
 }
+
+.checkboxGroup {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 1rem;
+  color: #cccccc;
+}
+
+.checkboxGroup label {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.checkboxGroup input[type="checkbox"] {
+  margin: 0;
+  width: auto;
+}

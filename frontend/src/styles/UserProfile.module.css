@@ -1,0 +1,76 @@
+
+
+.container {
+    min-height: 100vh;
+    background-color: #1a1a1a;
+    color: #ffffff;
+  }
+  
+  /* Profile Banner Section */
+  .profileBanner {
+    display: flex;
+    align-items: center;
+    padding: 2rem 5%;
+    background-color: #2d2d2d;
+    border-bottom: 2px solid #4a4a4a;
+  }
+  
+  .profileAvatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #00ff9d;
+    margin-right: 2rem;
+  }
+  
+  .profileInfo {
+    flex: 1;
+  }
+  
+  .profileName {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .profileDescription {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .statsContainer {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .statItem {
+    text-align: center;
+  }
+  
+  .statNumber {
+    display: block;
+    font-size: 1.5rem;
+    color: #00ff9d;
+    font-weight: bold;
+  }
+  
+  .statLabel {
+    font-size: 0.9rem;
+    color: #cccccc;
+  }
+  
+  /* Main Content – User's Posts */
+  .mainContent {
+    padding: 2rem 5%;
+  }
+  
+  .postsHeading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .postsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  

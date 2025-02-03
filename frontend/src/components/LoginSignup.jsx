@@ -7,14 +7,19 @@ const LoginSignup = () => {
         email: '',
         username: '',
         password: '',
-        confirmPassword: ''
+        confirmPassword: '',
+        rememberMe: false
     });
     const [error, setError] = useState('');
 
     const handleChange = (e) => {
+        const value = e.target.type === 'checkbox' 
+            ? e.target.checked 
+            : e.target.value;
+        
         setFormData({
             ...formData,
-            [e.target.name]: e.target.value
+            [e.target.name]: value
         });
     };
 
@@ -23,13 +28,11 @@ const LoginSignup = () => {
         setError('');
 
         if (isLogin) {
-            // Login validation
             if (!formData.email || !formData.password) {
                 setError('Please fill in all fields');
                 return;
             }
         } else {
-            // Signup validation
             if (!formData.email || !formData.username || !formData.password || !formData.confirmPassword) {
                 setError('Please fill in all fields');
                 return;
@@ -40,7 +43,6 @@ const LoginSignup = () => {
             }
         }
 
-        // Submit form data
         console.log('Form submitted:', formData);
     };
 
@@ -63,6 +65,7 @@ const LoginSignup = () => {
                                 required
                             />
                         </div>
+
                     )}
 
                     <div className={styles.inputGroup}>
@@ -101,6 +104,19 @@ const LoginSignup = () => {
                                 required
                             />
                         </div>
+                    )}
+
+                    {isLogin&&(
+                        <div className={styles.checkboxGroup}>
+                        <input
+                            type="checkbox"
+                            id="rememberMe"
+                            name="rememberMe"
+                            checked={formData.rememberMe}
+                            onChange={handleChange}
+                        />
+                        <label htmlFor="rememberMe"> Remember me</label>
+                    </div>
                     )}
 
                     <button type="submit" className={styles.submitButton}>
